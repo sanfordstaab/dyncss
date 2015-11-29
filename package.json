@@ -4,7 +4,9 @@
   "description": "A simple function to enforce conventions for creating and replacing CSS text within a stylesheet",
   "main": "dyncss.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify dyncss.js -o dyncss.bundle.js",
+    "watch": "watchify dyncss.js -o dyncss.bundle.js --debug --verbose",
   },
   "repository": {
     "type": "git",
