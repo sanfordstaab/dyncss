@@ -1,0 +1,23 @@
+{
+  "name": "dyncss",
+  "version": "1.0.0",
+  "description": "A simple function to enforce conventions for creating and replacing CSS text within a stylesheet",
+  "main": "dyncss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanfordstaab/dyncss.git"
+  },
+  "keywords": [
+    "dynamic",
+    "css"
+  ],
+  "author": "sanfordstaab <sanfords@msn.com> (https://github.com/sanfordstaab)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanfordstaab/dyncss/issues"
+  },
+  "homepage": "https://github.com/sanfordstaab/dyncss#readme"
+}
