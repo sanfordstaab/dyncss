@@ -5,7 +5,7 @@
 // Sets or creats a style sheet named idPrefix+StyleSheet and places/replaces the given css into it.
 module.exports = function setStyleSheet(idPrefix, css) {
     var id = idPrefix + 'StyleSheet';
-    var eStyles = ge(id);
+    var eStyles = document.getELementById(id);
     var fNew = false;
     if (!eStyles) {
         eStyles = document.createElement('style');
