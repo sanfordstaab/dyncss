@@ -22,3 +22,5 @@ This call will result in HTML code like this:
 ```
 If the style block doesn't already exist is is created and appended to the head tag. 
 If the block already exists, its contents is replaced.
+
+This package complies with semver[http://semver.org] versioning requirements.
