@@ -1,3 +1,7 @@
+define(function (require) {
+    var setStyleSheet = require('dyncss');
+});
+
 describe('dyncss:setStyleSheet', function() {
     var setStyleSheet = require('dyncss');
 
